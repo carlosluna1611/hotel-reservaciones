@@ -58,7 +58,7 @@ hotel-reservaciones/
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu_usuario/hotel-reservaciones.git
+   git clone https://github.com/carlosluna1611/hotel-reservaciones.git
    ```
 2. Abre los archivos `.html` en tu navegador web.
 3. Comienza registrando un usuario en `index.html`.
