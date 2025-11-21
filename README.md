@@ -76,14 +76,6 @@ hotel-reservaciones/
 
 ---
 
-## Créditos
-
-**Desarrollador:**
-
-* Carlos Luna
-
----
-
 ## Licencia
 
 Este proyecto está bajo la **Licencia MIT**. Se permite usar, modificar y distribuir el proyecto siempre que se reconozca al autor original.
