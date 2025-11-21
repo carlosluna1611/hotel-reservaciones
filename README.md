@@ -2,7 +2,6 @@
 
 ![Contributors](https://img.shields.io/badge/contributors-Carlos%20Luna-blue)
 ![Technologies](https://img.shields.io/badge/Technologies-HTML%20%26%20CSS-blue)
-![Project Status](https://img.shields.io/badge/Status-Jugable_%28Beta_completada%29-success)
 ![Platform](https://img.shields.io/badge/Platform-Web-lightgrey)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
