@@ -1,0 +1,460 @@
+h2 {
+    margin: 150px 40px 0;
+    padding: 5px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.479);
+
+}
+
+.contenedor_habitacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    display: none;
+}
+
+.presionar {
+    border: 5px solid;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgb(255, 94, 102);
+    align-items: center;
+    justify-content: center;
+    box-shadow: 22px 22px 0px #d15c79,
+        22px 22px 45px #ff74a9;
+    margin: 20px 40px 60px;
+    border-radius: 10px;
+    margin-bottom: 300px;
+    transition-duration: 700ms;
+    transform: scale(1);
+}
+
+.presionar:hover {
+    transition-duration: 400ms;
+    transform: scale(1.2);
+}
+
+.presionar label {
+    cursor: pointer;
+}
+
+.presionar h1 {
+    margin: 5px 40px;
+    font-size: 40px;
+    color: rgb(82, 1, 32);
+    font-weight: bold;
+}
+
+.presionar_tipo label {
+    padding: 10px 10px;
+}
+
+.contenedor_mascota label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.contenedor_mascota h1 {
+    font-size: 18px;
+}
+
+.contenedor_mascota img {
+    width: 100px;
+}
+
+.interactuar:checked+.contenedor_individual {
+    background-color: rgb(70, 202, 103);
+    box-shadow: 22px 22px 0px #088012,
+        22px 22px 45px #088012;
+}
+
+.interactuar:checked+.contenedor_individual h1 {
+    color: rgb(0, 87, 0);
+}
+
+.interactuar:checked+.contenedor_pareja {
+    background-color: rgb(70, 202, 103);
+    box-shadow: 22px 22px 0px #088012,
+        22px 22px 45px #088012;
+}
+
+.interactuar:checked+.contenedor_pareja h1 {
+    color: rgb(0, 87, 0);
+}
+
+.interactuar:checked+.contenedor_familiar {
+    background-color: rgb(70, 202, 103);
+    box-shadow: 22px 22px 0px #088012,
+        22px 22px 45px #088012;
+}
+
+.interactuar:checked+.contenedor_familiar h1 {
+    color: rgb(0, 87, 0);
+}
+
+.interactuar:checked+.contenedor_mascota {
+    background-color: rgb(70, 202, 103);
+    box-shadow: 22px 22px 0px #088012,
+        22px 22px 45px #088012;
+}
+
+.interactuar:checked+.contenedor_mascota h1 {
+    color: rgb(0, 87, 0);
+}
+
+.contenedor_ola2 {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+}
+
+.contenedor_servicios {
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.contenedor_comidas {
+    display: flex;
+    width: 500px;
+    height: 600px;
+    margin: 10px 80px;
+    padding: 40px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    border-radius: 55px;
+    background: linear-gradient(145deg, #ce1452c4, #ff79acce);
+    box-shadow: 22px 22px 0px #d15c79,
+        22px 22px 45px #ff74a9;
+    transition-duration: 700ms;
+    transform: scale(1);
+}
+
+.contenedor_comidas:hover {
+    transition-duration: 400ms;
+    transform: scale(1.05);
+}
+
+.comidas h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #86001d;
+}
+
+.contenedor_comidas img {
+    width: 50px;
+}
+
+.check {
+    display: none;
+}
+
+.titulo_comidas h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #520120;
+}
+
+.contenedor_desayuno {
+    display: flex;
+    width: 500px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 20px 80px;
+    border-radius: 45px;
+    transition-duration: 50ms;
+    transform: scale(1);
+}
+
+.contenedor_desayuno:hover {
+    transition-duration: 200ms;
+    transform: scale(1.2);
+}
+
+
+.contenedor_almuerzo {
+    display: flex;
+    width: 500px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 20px 80px;
+    border-radius: 45px;
+    transition-duration: 50ms;
+    transform: scale(1);
+}
+
+.contenedor_almuerzo:hover {
+    transition-duration: 200ms;
+    transform: scale(1.2);
+}
+
+.contenedor_cena {
+    display: flex;
+    width: 500px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 20px 80px;
+    border-radius: 45px;
+    transition-duration: 50ms;
+    transform: scale(1);
+}
+
+.contenedor_cena:hover {
+    transition-duration: 200ms;
+    transform: scale(1.2);
+}
+
+.comidas label {
+    margin: 10px 30px;
+    padding: 5px 100px;
+    border: 5px solid;
+    border-color: #a32525;
+    background: linear-gradient(145deg, #ff284c, hsl(347, 63%, 47%));
+    cursor: pointer;
+    transition-duration: 100ms;
+}
+
+.contenedor_extras {
+    display: flex;
+    width: 550px;
+    height: 500px;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.interactuar:checked+.contenedor_desayuno label {
+    background: linear-gradient(145deg, #98be52, #5e7723);
+    background-color: rgb(91, 156, 54);
+    border-color: #326608;
+    transition-duration: 100ms;
+}
+
+.interactuar:checked+.contenedor_desayuno .check {
+    display: block;
+
+}
+
+.interactuar:checked+.contenedor_desayuno .uncheck {
+    display: none;
+}
+
+.interactuar:checked+.contenedor_desayuno label h1 {
+    color: rgb(0, 75, 0);
+    transition-duration: 100ms;
+}
+
+.interactuar:checked+.contenedor_almuerzo label {
+    background: linear-gradient(145deg, #98be52, #5e7723);
+    background-color: rgb(91, 156, 54);
+    border-color: #326608;
+    transition-duration: 100ms;
+}
+
+.interactuar:checked+.contenedor_almuerzo .check {
+    display: block;
+}
+
+.interactuar:checked+.contenedor_almuerzo .uncheck {
+    display: none;
+}
+
+.interactuar:checked+.contenedor_almuerzo label h1 {
+    color: rgb(0, 75, 0);
+    transition-duration: 100ms;
+}
+
+.interactuar:checked+.contenedor_cena label {
+    background: linear-gradient(145deg, #98be52, #5e7723);
+    background-color: rgb(91, 156, 54);
+    border-color: #326608;
+    transition-duration: 100ms;
+}
+
+.interactuar:checked+.contenedor_cena .check {
+    display: block;
+}
+
+.interactuar:checked+.contenedor_cena .uncheck {
+    display: none;
+}
+
+.interactuar:checked+.contenedor_cena label h1 {
+    color: rgb(0, 75, 0);
+    transition-duration: 100ms;
+}
+
+.interactuar:checked+.contenedor_nevera {
+    background-color: rgb(70, 202, 103);
+    box-shadow: 22px 22px 0px #088012,
+        22px 22px 45px #088012;
+    transition-duration: 100ms;
+}
+
+.interactuar:checked+.contenedor_nevera h1 {
+    color: rgb(0, 87, 0);
+    transition-duration: 100ms;
+}
+
+.interactuar:checked+.contenedor_cesta {
+    background-color: rgb(70, 202, 103);
+    box-shadow: 22px 22px 0px #088012,
+        22px 22px 45px #088012;
+    transition-duration: 100ms;
+}
+
+.interactuar:checked+.contenedor_cesta h1 {
+    color: rgb(0, 87, 0);
+    transition-duration: 100ms;
+}
+
+.contenedor_aditamentos {
+    margin: 0px 40px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.contenedor_aditamentos h1 {
+    font-size: 25px;
+}
+
+.contenedor_aditamentos img {
+    width: 150px;
+}
+
+.contenedor_jacuzzi {
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+.contenedor_servihabitacion {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+.contenedor_climatizador {
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+.interactuar:checked+.contenedor_jacuzzi {
+    background-color: rgb(51, 161, 78);
+    box-shadow: 22px 22px 0px #088012,
+        22px 22px 45px #088012;
+}
+
+.interactuar:checked+.contenedor_jacuzzi h1 {
+    color: rgb(0, 70, 0);
+}
+
+.interactuar:checked+.contenedor_servihabitacion {
+    background-color: rgb(51, 161, 78);
+    box-shadow: 22px 22px 0px #088012,
+        22px 22px 45px #088012;
+}
+
+.interactuar:checked+.contenedor_servihabitacion h1 {
+    color: rgb(0, 70, 0);
+}
+
+.interactuar:checked+.contenedor_climatizador {
+    background-color: rgb(51, 161, 78);
+    box-shadow: 22px 22px 0px #088012,
+        22px 22px 45px #088012;
+}
+
+.interactuar:checked+.contenedor_climatizador h1 {
+    color: rgb(0, 70, 0);
+}
+
+.subtitulo_final h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.contenedor_horarios {
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.fecha {
+    margin: 30px;
+    padding: 10px;
+    transition-duration: 100ms;
+    transform: scale(1);
+}
+.fecha:hover {
+    transition-duration: 200ms;
+    transform: scale(1.2);
+}
+
+.fecha h3 {
+    font-size: 30px;
+    margin: 45px 30px;
+    padding: 10px 20px;
+    color: rgb(102, 15, 0);
+    border-radius: 20px;
+    background: #fc7e5ecc;
+    box-shadow: 13px 10px 0px #9c43439f,
+        16px 16px 32px #ff8181ab;
+}
+
+input[type="date"] {
+    font-size: 27.5px;
+    color: #640f0faf;
+    border: solid transparent;
+    box-shadow: 13px 10px 0px #9c43436e,
+        16px 16px 32px #ff818177;
+}
+
+
+.contenedor_reservar {
+    margin: 0 450px 100px;
+    cursor: pointer;
+}

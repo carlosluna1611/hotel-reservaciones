@@ -1,0 +1,19 @@
+.contenedor_agradecimiento p {
+    margin: 250px 70px;
+    font-size: 60px;
+    text-align: center;
+    color: rgba(138, 18, 128, 0.568);
+    transition-duration: 300ms;
+    transform: scale(1.1);
+}
+
+.contenedor_agradecimiento p:hover {
+    transition-duration: 100ms;
+    transform: scale(1);
+    color: rgba(83, 0, 76, 0.836);
+}
+
+.contenedor_volver {
+    margin: 0 350px 250px;
+    cursor: pointer;
+}

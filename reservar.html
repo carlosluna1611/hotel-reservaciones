@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--Asignacion de valores predeterminados de la pagina, anclajes de estilos, etc.-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoteles Majin Reservación</title>
+    <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilosreservar.css">
+</head>
+
+<!--Estructura principal o cuerpo del documento-->
+
+<body>
+    <!--Encabezado contenedor del logo e inicio del documento-->
+    <header class="contenedor_header">
+
+        <!--Navegador de demostracion para el recorrido de las bases del documento-->
+        <nav class="contenedor_navegador">
+            <div class="contenedor_logo">
+                <!--etiqueta de tipo enlace para el logo del documento-->
+                <a href="index.html">
+                    <img src="imagenes/Logo1.png" alt="Logo Hoteles Majin">
+                </a>
+
+            </div>
+            <!--Contenedor del menu o navegador principal-->
+            <div class="contenedor_menu">
+                <a href="#">Inicio |</a>
+                <a href="#">Sobre Nosotros</a>
+                <a href="#">| Contacto</a>
+            </div>
+        </nav>
+
+        <!--imagen tipo vector de ola o "wave" para la diferenciacion de secciones-->
+        <div class="contenedor_ola1">
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#F6A4F5" fill-opacity="1"
+                    d="M0,128L48,138.7C96,149,192,171,288,160C384,149,480,107,576,112C672,117,768,171,864,186.7C960,203,1056,181,1152,170.7C1248,160,1344,160,1392,160L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+    </header>
+
+    <!--Titulo principal de la pagina-->
+    <div class="titulo">
+        <h1>Servicio de Reservación</h1>
+    </div>
+
+    <!--Subtitulo numero 1 de la pagina-->
+    <div class="subtitulo">
+        <h2>Seleccione su tipo de habitación </h2>
+    </div>
+
+    <!--Seccion para contenedor de habitacion, con el tipohabitacion para compartir propiedades y grupo con los siguientes input radio-->
+    <section class="contenedor_habitacion  contenedor_tipohabitacion ">
+
+        <input type="radio" name="contenedor_tipohabitacion" id="contenedor_individual" class="interactuar">
+        <div class="contenedor_individual presionar">
+            <!--Label contenedor del boton con el tipo de boton pulsable radio individual-->
+            <label for="contenedor_individual" class="interactuar contenedor_individual">
+                <h1 class="individual presionar_tipo">Individual</h1>
+            </label>
+        </div>
+
+        <!--Label contenedor del boton con el tipo de boton pulsable radio pareja-->
+        <input type="radio" name="contenedor_tipohabitacion" id="contenedor_pareja" class="interactuar">
+        <div class="contenedor_pareja presionar">
+            <label for="contenedor_pareja" class="interactuar contenedor_pareja">
+                <h1 class="pareja presionar_tipo">Pareja</h1>
+            </label>
+        </div>
+
+        <!--Label contenedor del boton con el tipo de boton pulsable radio familiar-->
+        <input type="radio" name="contenedor_tipohabitacion" id="contenedor_familiar" class="interactuar">
+        <div class="contenedor_familiar presionar">
+            <label for="contenedor_familiar" class="interactuar contenedor_familiar">
+                <h1 class="familiar presionar_tipo">Familiar</h1>
+            </label>
+        </div>
+
+        <!--Label contenedor del boton con el tipo de boton pulsable check mascota-->
+        <input type="checkbox" id="contenedor_mascota" class="interactuar">
+        <div class="contenedor_mascota presionar">
+
+            <!--Contenedor de la caja mascota, con imagen alusiva pulsable de tipo check-->
+            <label for="contenedor_mascota" class="interactuar contenedor_mascota">
+                <h1 class="mascota presionar_tipo">Con Mascotas</h1>
+                <img src="imagenes/perro.png" alt="servicio de mascotas">
+            </label>
+        </div>
+
+        <!--imagen tipo vector de ola o "wave" para la diferenciacion de secciones-->
+        <div class="contenedor_ola2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#E65DE9" fill-opacity="1"
+                    d="M0,288L60,266.7C120,245,240,203,360,176C480,149,600,139,720,154.7C840,171,960,213,1080,229.3C1200,245,1320,235,1380,229.3L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+    </section>
+
+    <!--Subtitulo numero 2 de la pagina-->
+    <div class="subtitulo">
+        <h2>Agregue las comidas de su servicio </h2>
+    </div>
+
+    <!--Seccion para contenedor de servicios, compartirendo tipos de botones anteriores y creando nuevos de tipo check-->
+    <section class="contenedor_servicios">
+
+        <!--Seccion para contenedor de la caja comidas-->
+        <div class="contenedor_comidas">
+
+            <!--Titulo de la caja contenedora de las 3 comidas seleccionables-->
+            <div class="titulo_comidas">
+                <h1>Comidas</h1>
+
+            </div>
+
+            <!--Boton de tipo check para marcar la opcion desayuno-->
+            <input type="checkbox" id="contenedor_desayuno" class="interactuar">
+            <div class="contenedor_desayuno comidas">
+                <label for="contenedor_desayuno" class="interactuar contenedor_desayuno">
+                    <h1 class="desayuno comidas_tipo">Desayuno</h1>
+                    <!--Imagenes para mostrar y ocultar del estado check y uncheck del boton-->
+                    <img class="uncheck" src="imagenes/uncheck.png" alt="uncheck">
+                    <img class="check" src="imagenes/check.png" alt="check">
+                </label>
+            </div>
+
+            <!--Boton de tipo check para marcar la opcion almuerzo-->
+            <input type="checkbox" id="contenedor_almuerzo" class="interactuar">
+            <div class="contenedor_almuerzo comidas">
+                <label for="contenedor_almuerzo" class="interactuar contenedor_almuerzo">
+                    <h1 class="almuerzo comidas_tipo">Almuerzo</h1>
+                    <!--Imagenes para mostrar y ocultar del estado check y uncheck del boton-->
+                    <img class="uncheck" src="imagenes/uncheck.png" alt="uncheck">
+                    <img class="check" src="imagenes/check.png" alt="check">
+                </label>
+            </div>
+
+            <!--Boton de tipo check para marcar la opcion cena-->
+            <input type="checkbox" id="contenedor_cena" class="interactuar">
+            <div class="contenedor_cena comidas">
+                <label for="contenedor_cena" class="interactuar contenedor_cena">
+                    <h1 class="cena comidas_tipo">Cena</h1>
+                    <!--Imagenes para mostrar y ocultar del estado check y uncheck del boton-->
+                    <img class="uncheck" src="imagenes/uncheck.png" alt="uncheck">
+                    <img class="check" src="imagenes/check.png" alt="check">
+                </label>
+            </div>
+        </div>
+
+        <!--Contenedor de los servicios extras de comida-->
+        <div class="contenedor_extras">
+            <!--Contenedor con herederos de botones anteriores para la nevera de bebidas-->
+            <div class="contenedor_presionar">
+                <input type="checkbox" id="contenedor_nevera" class="interactuar">
+                <div class="contenedor_nevera presionar">
+                    <label for="contenedor_nevera" class="interactuar contenedor_nevera">
+                        <h1 class="nevera presionar_tipo">Nevera de Bebidas</h1>
+                    </label>
+                </div>
+
+                <!--Contenedor con herederos de botones anteriores para la cesata de snack-->
+                <input type="checkbox" id="contenedor_cesta" class="interactuar">
+                <div class="contenedor_cesta presionar">
+                    <label for="contenedor_cesta" class="interactuar contenedor_cesta">
+                        <h1 class="cesta presionar_tipo">Cesta de Snacks</h1>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion para contenedor de aditamentos o servicios adicionales-->
+    <section class="Aditamentos">
+
+        <!--Subtitulo numero 3 de la pagina-->
+        <div class="subtitulo">
+            <h2>Seleccione los aditamentos de su habitación </h2>
+        </div>
+
+        <div class="contenedor_aditamentos">
+            <!--Boton de tipo presionar (heredero) para el boton seleccionador de jacuzzi-->
+            <input type="checkbox" id="contenedor_jacuzzi" class="interactuar">
+            <div class="contenedor_jacuzzi presionar">
+                <!--Contenedor del label de boton tipo check con imagen alusiva-->
+                <label for="contenedor_jacuzzi" class="interactuar contenedor_jacuzzi">
+                    <h1 class="jacuzzi presionar_tipo">Jacuzzi</h1>
+
+                    <img src="imagenes/jacuzzi.png" alt="agregar jacuzzi">
+                </label>
+            </div>
+
+            <!--Boton de tipo presionar (heredero) para el boton seleccionador de servicio a la habitacion-->
+            <input type="checkbox" id="contenedor_servihabitacion" class="interactuar">
+            <div class="contenedor_servihabitacion presionar">
+                <!--Contenedor del label de boton tipo check con imagen alusiva-->
+                <label for="contenedor_servihabitacion" class="interactuar contenedor_servihabitacion">
+                    <h1 class="servihabitacion presionar_tipo">Servicio A La Habitación</h1>
+                    <img src="imagenes/servihabitacion.png" alt="agregar servicio a la habitacion">
+                </label>
+            </div>
+
+            <!--Boton de tipo presionar (heredero) para el boton seleccionador de climatizador-->
+            <input type="checkbox" id="contenedor_climatizador" class="interactuar">
+            <div class="contenedor_climatizador presionar">
+                <!--Contenedor del label de boton tipo check con imagen alusiva-->
+                <label for="contenedor_climatizador" class="interactuar contenedor_climatizador">
+                    <h1 class="climatizador presionar_tipo">Climatizador</h1>
+                    <img src="imagenes/climatizador.png" alt="agregar climatizador">
+                </label>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Subtitulo numero 4 de la pagina-->
+    <div class="subtitulo_final">
+        <h2>Seleccione Sus Fechas De Reservación </h2>
+    </div>
+
+    <!--Contenedor de los inputs de fechas o "date"-->
+    <section class="contenedor_horarios">
+
+        <div class="contenedor_quedada fecha">
+            <!--Label del objeto para seleccionar la fecha de llegada, con restricciones de fecha minimos-->
+            <label for="fechaquedada">
+                <h3>Fecha De Llegada</h3>
+            </label>
+            <input type="date" name="fecha de quedada" id="fechaquedada" min="2024-06-10">
+        </div>
+
+        <div class="contenedor_retirada fecha">
+            <!--Label del objeto para seleccionar la fecha de retirada, con restricciones de fecha minimos-->
+            <label for="fecharetirada">
+                <h3>Fecha De Retirada</h3>
+            </label>
+            <input type="date" name="fecha de retirada" id="fecharetirada" min="2024-06-11">
+        </div>
+
+    </section>
+
+    <section class="contenedor_reservar">
+        <!--Boton para avanzar de pagina-->
+        <div class="boton reservar">
+            <a href="reservado.html">Reservar</a>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
