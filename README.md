@@ -25,7 +25,7 @@ El proyecto está diseñado para demostrar habilidades en **diseño web, organiz
 * Elección de fechas de llegada y retirada con validaciones básicas.
 * Interfaz limpia, organizada y visualmente atractiva con efectos gráficos tipo "wave".
 
-<img src="graficos/paginacompleta1.jpg" alt="Pagina Completa Inicio" width="700"/> <img src="graficos/paginacompleta2.jpg" alt="Pagina Completa Reserva" width="700"/> <img src="graficos/paginacompleta3.jpg" alt="Pagina Completa Final" width="700"/>
+<img src="graficos/paginacompleta1.jpg" alt="Pagina Completa Inicio" width="313"/> <img src="graficos/paginacompleta2.jpg" alt="Pagina Completa Reserva" width="313"/> <img src="graficos/paginacompleta3.jpg" alt="Pagina Completa Final" width="372"/>
 
 ---
 
