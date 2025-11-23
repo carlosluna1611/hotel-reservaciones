@@ -13,6 +13,10 @@
 
 El proyecto está diseñado para demostrar habilidades en **diseño web, organización de contenido y estructura de formularios**, ofreciendo una base funcional que podría ampliarse con tecnologías de backend en el futuro.
 
+<img src="graficos/paginacompleta1.jpg" alt="Pagina Completa Inicio" width="650"/>
+<img src="graficos/paginacompleta0.jpg" alt="Pagina Completa Reserva" width="650"/>
+<img src="graficos/paginacompleta3.jpg" alt="Pagina Completa Final" width="650"/>
+
 ---
 
 ## Características Principales
@@ -24,8 +28,6 @@ El proyecto está diseñado para demostrar habilidades en **diseño web, organiz
 * Aditamentos de habitación como Jacuzzi, Servicio a la Habitación y Climatizador.
 * Elección de fechas de llegada y retirada con validaciones básicas.
 * Interfaz limpia, organizada y visualmente atractiva con efectos gráficos tipo "wave".
-
-<img src="graficos/paginacompleta1.jpg" alt="Pagina Completa Inicio" height="482"/> <img src="graficos/paginacompleta0.jpg" alt="Pagina Completa Reserva" height="482"/> <img src="graficos/paginacompleta3.jpg" alt="Pagina Completa Final" height="482"/>
 
 ---
 
